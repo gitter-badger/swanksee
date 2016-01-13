@@ -1,0 +1,37 @@
+body {
+  margin: 0px; }
+
+nav {
+  background: #eee; }
+  nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none; }
+
+a {
+  padding: 1.25rem 0.5rem;
+  font-size: 1 rem;
+  max-width: 140px;
+  text-decoration: none;
+  display: flex;
+  align-items: flex-start;
+  color: #333;
+  color: black; }
+  a:hover, a:focus {
+    background: #ccc;
+    color: black; }
+
+.box {
+  position: absolute;
+  width: 100%;
+  height: 90%; }
+
+.box-align {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
